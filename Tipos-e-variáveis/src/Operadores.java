@@ -1,25 +1,12 @@
 public class Operadores {
     public static void main(String[] args) {
-    String concatenacao ="?"; 
+        int numero1 = 1;
+        int numero2 = 2;
 
-    concatenacao = 1+1+1+"1";
-        
-        System.out.println(concatenacao);
+        boolean simNao = numero1 != numero2;
 
-    concatenacao = 1+"1"+1+1;
+        System.out.println("numeroUm é igual a numeroDois:" + simNao);
 
-        System.out.println(concatenacao);
 
-    concatenacao = 1+"1"+1+"1";
-
-        System.out.println(concatenacao);
-
-    concatenacao = "1"+1+1+1;
-
-        System.out.println(concatenacao);
-
-    concatenacao = "1"+(1+1+1);
-
-        System.out.println(concatenacao);
-    }
+ }
 }
