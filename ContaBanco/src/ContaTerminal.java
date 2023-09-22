@@ -7,8 +7,6 @@ public class ContaTerminal {
     String NomeCliente;
     Float Saldo;
 
-
-
     public static void main(String[] args) throws Exception{
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
